@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+       
+        <title>Horizons by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    </h:head>
+    <h:body class="homepage">
+        
+        <!-- Header -->
+			<div id="header">
+				<div class="container">
+						
+					
+					
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="result.xhtml">Home</a></li>
+								<li>
+									<a href="">Dropdown</a>
+									<ul>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Etiam dolore nisl</a></li>
+										<li>
+											<a href="">Phasellus consequat</a>
+											<ul>
+												<li><a href="#">Lorem ipsum dolor</a></li>
+												<li><a href="#">Phasellus consequat</a></li>
+												<li><a href="#">Magna phasellus</a></li>
+												<li><a href="#">Etiam dolore nisl</a></li>
+												<li><a href="#">Veroeros feugiat</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Veroeros feugiat</a></li>
+									</ul>
+								</li>
+								<li><a href="left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="no-sidebar.html">No Sidebar</a></li>
+							</ul>
+						</nav>
+
+
+					<!-- Banner -->
+						<div id="banner">
+							<div class="container">
+								<section>
+									<header class="major">
+										<h2>Welcome to Horizons!</h2>
+										 <h2>Resultado</h2>
+        <h:panelGrid columns="2">
+            <h:outputText value="Base Datos : "/>
+            <h:outputText value="#{encuestaBean.response1}"/>
+           
+            <h:outputText value="Sistemas Operativo: "/>
+            <h:outputText value="#{encuestaBean.sistemaOperativoInString}" />
+            <h:outputText value="Mejor Portatil : "/>
+            <h:outputText value="#{encuestaBean.portatil}" />
+            <h:outputText value="Calificacion: "/>
+            <h:outputText value="#{encuestaBean.califacion}" />
+            
+             <h:outputText value="Mejor Referencia: "/>
+            <h:outputText value="#{encuestaBean.response2}" />
+            <h:outputText value="Calificacion Mysql: "/>
+            <h:outputText value="#{encuestaBean.mysqlresponse}" />
+            <h:outputText value="Calificacion Postgres: "/>
+            <h:outputText value="#{encuestaBean.postgresresponse}" />
+             <h:outputText value="Calificacion Oracle: "/>
+            <h:outputText value="#{encuestaBean.oracleresponse}" />
+        </h:panelGrid>
+        
+									</header>
+									
+								</section>			
+							</div>
+						</div>
+
+				</div>
+			</div>
+
+		<!-- Featured -->
+			
+        
+       
+    </h:body>
+</html>
+
